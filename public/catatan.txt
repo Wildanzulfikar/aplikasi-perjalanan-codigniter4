@@ -1,0 +1,5 @@
+
+123456789|wildanzulfikar|2023-01-17|17:51|Jakarta|32 °
+123456789|wildanzulfikar|2023-01-17|16:59|Depok|5 °
+123456789|wildanzulfikar|2023-01-19|16:00|Mangga Dua|3 °
+123456789|wildanzulfikar|2023-01-26|19:27|Depoks|34 °
