@@ -18,15 +18,15 @@ class Home extends BaseController
         $nama = $this->request->getVar('nama');
         $password = sha1($this->request->getVar('password'));
         $data = file("config.txt", FILE_IGNORE_NEW_LINES);
-            foreach ($data as $value) {
+        foreach ($data as $value) {
         $pisah = explode("|", $value);
-            if ($nik == $pisah['0']) {
-                $cek = TRUE;
-            } else {
-                $cek = FALSE;
-            }
+        if ($nik == $pisah['0']) {
+        $cek = TRUE;
+    } else {
+        $cek = FALSE;
+        }
     }
-    if ($data) {
+    if ($cek) {
         session()->set('gagal', 'Akun Sudah Terdaftar');
         $session = session();
         $session->markAsFlashdata('gagal');
@@ -37,10 +37,11 @@ class Home extends BaseController
         fwrite($file, $format);
         fclose($file);
         session()->set('pendaftaran', 'Selamat Pendaftaran Anda Berhasil');
-        $session = session();
-        $session->markAsFlashdata('pendaftaran');
-        return redirect()->to(base_url('login'));
-    }
+
+$session = session();
+$session->markAsFlashdata('pendaftaran');
+return redirect()->to(base_url('login'));
+}
     }
     public function auth_login()
     {
