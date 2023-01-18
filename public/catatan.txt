@@ -5,3 +5,5 @@
 123456789|wildanzulfikar|2023-01-26|19:27|Depoks|34 °
 123456789|wildanzulfikar|2023-01-18|22:43|Depok|35 °
 123456789|wildanzulfikar|2023-01-25|03:04|ga tau|36 °
+123|wildanzulfikar|2023-01-19|14:35|Depok|36 °
+123|wildanzulfikar|2023-01-20|14:37|Tanggerang|90 °
