@@ -132,7 +132,7 @@ L17.4,7.13333333 C18.0627417,6.24967773 19.3163444,6.07059163
 </div>
 <div class="menu-inner-shadow"></div>
 
-<ul class="menu-inner py-1">
+<ul class="menu-inner py-1 bg-info">
 <!-- Dashboard -->
 <li class="menu-item ">
 <a href="dashboard" class="menu-link">
@@ -337,7 +337,7 @@ Date().getFullYear());
 
 <a
 
-href="https://github.com/zonewanz" target="_blank" class="footer-link fw-bolder">Oren's Solution</a>
+href="https://github.com/zonewanz" target="_blank" class="footer-link fw-bolder">Wildan Zulfikar</a>
 
 </div>
 </div>

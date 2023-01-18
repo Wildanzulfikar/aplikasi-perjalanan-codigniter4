@@ -45,7 +45,7 @@ file. -->
 <div class="authentication-wrapper authentication-basic container-p-y">
 <div class="authentication-inner">
 <!-- Register -->
-<div class="card">
+<div class="card bg-success border border-primary">
 
 <div class="card-body">
 <!-- Logo -->

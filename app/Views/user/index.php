@@ -138,7 +138,7 @@ L17.4,7.13333333 C18.0627417,6.24967773 19.3163444,6.07059163
 </a>
 </div>
 <div class="menu-inner-shadow"></div>
-<ul class="menu-inner py-1">
+<ul class="menu-inner py-1 bg-info">
 <!-- Dashboard -->
 <li class="menu-item active">
 <a href="dashboard" class="menu-link">
